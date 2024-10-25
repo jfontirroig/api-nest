@@ -130,7 +130,7 @@ export class ApiService {
             let configProfile: AxiosRequestConfig = {
               method: 'get',
               url: `https://api.hiro.so/v1/names/${userid}`,
-              headers: { 'x-hiro-api-key': '7ead674d775363f1df3a2ba3e44b5e09' },
+              headers: { },
             };
 
             await axios(configProfile)
